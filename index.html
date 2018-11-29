@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML jQuery Audio Player</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <body>
+<div id="container">
+  <div id='header'><h1>My Audio Player</h1></div>
+  <div id='content'>
+  <div id='main'>
+  
+
+ 
+    <img id="mainImg" src="https://source.unsplash.com/360x240/?nature,water" alt="Main Image">
+    
+     
+  <input id="volumeslider" type="range" min="0" max="100" value="100" step="1" class='slider' >
+ 
+   
+    <progress id='progress' value='0' max='100' style='width:600px'></progress>
+    <audio  controls id='audio1' ></audio></div>
+ <div id='navbar'>   
+<ul id='playList'>
+  <li id='0' ><a  href='https://www.soundjay.com/free-music/heart-of-the-sea-01.mp3'>&ensp;&ensp;&ensp;&ensp;Heart of the Sea</a></li> 
+  <li id='1'><a  href='https://www.soundjay.com/free-music/destination-01.mp3'>&ensp;&ensp;&ensp;&ensp;Destination</a></li>
+  <li id='2'><a  href='https://www.soundjay.com/free-music/iron-man-01.mp3'>&ensp;&ensp;&ensp;&ensp;Iron Man</a></li>
+  <li id='3'><a  href='https://www.soundjay.com/free-music/midnight-ride-01a.mp3'>&ensp;&ensp;&ensp;&ensp;Midnight Ride</a></li>
+  <li id='4'><a href='https://www.soundjay.com/free-music/barn-beat-01.mp3'>&ensp;&ensp;&ensp;&ensp;Barn Beat</a></li>
+  <li id='5'><a href='https://www.soundjay.com/free-music/cautious-path-01.mp3'>&ensp;&ensp;&ensp;&ensp;Cautious Path</a></li>
+  <li id='6'><a href='https://www.soundjay.com/free-music/jungle-run-01.mp3'>&ensp;&ensp;&ensp;&ensp;Jungle Run</a></li>
+  </ul>
+
+  <div id="buttons">
+<a id="btnPlay" >&#9658</a>
+<a id="btnPause">&#x2225;</a>
+<a id="btnStop">&#9724;</a>
+<a id="btnBackward">&#171;</a>
+<a id="btnForward">&#187;</a>
+
+ <span id='current'>0:00/0:00</span> 
+    <div id='source'>
+      Source:
+    </div>  
+   </div>
+   </div>
+ </div>
+  <div id='footer'></div>
+ </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
